@@ -170,6 +170,7 @@ header {
   text-align: center;
 }
 
+
 .conteudo{
   border-radius: 10px;
   box-shadow: 0 0 1rem 0.5rem #F3B4C0;
@@ -207,7 +208,51 @@ header {
   border-radius: 100%;
 }
 
+.cards3{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.cards3 img{
+  border-radius: 10px;
+  width: 200px;
+}
+
+.cards3 h2{
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.cards3 p{
+  font-size: 14px;
+  margin-left: 23px;
+  text-align: center;
+  width: 153px;
+}
+
+.cards3 button a{
+  color: black;
+  background-color: #F3B4C0;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cards3 button a:hover{
+  color: red;
+}
+
+.cards3 button{
+  border: none;
+  border-radius: 100%;
+}
 /*MEDIA QUERIES*/
+
+
 
 @media screen and (min-width: 800px) {
   .btn-menu{
@@ -238,6 +283,7 @@ header {
     width: 100%;
   }
   
+  
 }
 
 
@@ -247,6 +293,12 @@ header {
   }
   .btn-close{
     display: none;
+  }
+  .cardss{
+    flex-wrap: wrap;
+  }
+  .cards3{
+    flex-wrap: wrap;
   }
   .logo{
     margin-left: 36px;
@@ -294,7 +346,14 @@ header {
   }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 900px){
+  .cardss{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cards3{
+    flex-wrap: wrap;
+  }
   
 }
 
