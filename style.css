@@ -8,12 +8,16 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body{
+  display: flex;     flex-direction: column;     min-height: 100vh;     justify-content: space-between;
+}
+
 header {
   display: flex;
-  
   justify-content: center;
   background-color: #ffffff;
   box-shadow: 0 0 1rem 0.5rem #F3B4C0;
+  
 }
 
 .logo img{
@@ -82,6 +86,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .main-text{
@@ -150,14 +155,17 @@ header {
 
 /*BOLOSSS*//*BOLOSSS*//*BOLOSSS*/
 
+
 .text-main2{
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  
 }
 
 .container-cards{
   border: none;
+  
 }
 
 .cardss{
@@ -257,25 +265,34 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .conteudo-contato{
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  margin-top: 100px;  
 }
 
 .whats{
   width: 50px;
+
 }
 
 .conteudo-contato a{
   text-decoration: none;
+  margin-bottom: 50px;
+  font-size: 27px;
+  
 }
 
 .imagemm img{
-  width: 200px;
+  width: 300px;
 }
+
+
+
+
 /*MEDIA QUERIES*/
 
 
@@ -313,7 +330,7 @@ header {
 }
 
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1050px) {
   .btn-menu{
     display: none;
   }
@@ -370,9 +387,20 @@ header {
     text-align: center;
     background-color: #F3B4C0;
   }
+
+  .main-contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+  }
+  .imagemm img{
+    width: 450px;
+    
+  }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1000px){
   .cardss{
     display: flex;
     flex-wrap: wrap;
