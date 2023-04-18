@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
 
 *{
@@ -288,6 +289,40 @@ header {
 
 .imagemm img{
   width: 300px;
+}
+
+
+/*sobre*//*sobre*//*sobre*//*sobre*/
+.sobre-main{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.text-sobre{
+  text-align: start;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.sobre-main h1{
+  margin-top: 50px;
+
+}
+
+.p-sobre{
+  color: gray;
+  font-family: 'Special Elite', cursive;
+}
+
+
+
+.p-sobre span{
+  color: #F3B4C0;
 }
 
 
